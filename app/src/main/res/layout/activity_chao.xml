@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    android:orientation="vertical"
+    tools:context=".ChaoActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="55dp"
+        app:srcCompat="@drawable/managerbook" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:text="Thư viện Phương Nam"
+        android:textColor="#FAF9F7"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+    <ProgressBar
+        android:layout_marginTop="10dp"
+        android:id="@+id/progress_bar"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+       android:progressTint="#f00"
+        android:progressBackgroundTint="#F11909"
+        android:layout_height="40dp"/>
+    <TextView
+        android:id="@+id/tv_chay"
+        android:textSize="20sp"
+        android:textColor="#FF9800"
+        android:text="100%"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
